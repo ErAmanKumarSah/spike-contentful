@@ -3,6 +3,9 @@
   "description": "spike contentful test",
   "version": "0.0.1",
   "author": "aman01",
+  "scripts": {
+    "test": "ava"
+  },
   "ava": {
     "verbose": "true"
   },
@@ -17,7 +20,7 @@
     "webpack": "^2.3.3"
   },
   "devDependencies": {
-    "ava": "^0.19.0",
+    "ava": "^0.19.1",
     "rimraf": "^2.6.0",
     "snazzy": "^6.0.0",
     "spike-core": "^1.0.0",
