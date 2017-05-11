@@ -22,7 +22,7 @@ module.exports = {
           template: {
             path: 'views/index.sgr',
             output: (post) => {
-              console.log(post)
+              // console.log(post)
               return `index.html`
             }
           }

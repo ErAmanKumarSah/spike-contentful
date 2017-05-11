@@ -4,7 +4,10 @@
   "version": "0.0.1",
   "author": "aman01",
   "scripts": {
-    "test": "ava"
+    "lint": "standard | snazzy",
+    "precommit": "npm run lint -s",
+    "pretest": "npm run lint -s",
+    "test": "NODE_ENV=test ava"
   },
   "ava": {
     "verbose": "true"
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "ava": "^0.19.1",
+    "browser-env": "^2.0.31",
     "rimraf": "^2.6.0",
     "snazzy": "^6.0.0",
     "spike-core": "^1.0.0",
@@ -29,11 +33,5 @@
   "homepage": "https://github.com/aman01/spike-contentful",
   "main": "app.js",
   "private": true,
-  "repository": "https://github.com/aman01/spike-contentful",
-  "scripts": {
-    "lint": "standard | snazzy",
-    "precommit": "npm run lint -s",
-    "pretest": "npm run lint -s",
-    "test": "NODE_ENV=test ava"
-  }
+  "repository": "https://github.com/aman01/spike-contentful"
 }
