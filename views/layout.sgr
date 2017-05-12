@@ -14,7 +14,7 @@ html
     block(name='stylesheets')
       link(rel='stylesheet' href='css/index.css')
 
-  body
+  body.mar_0
     main(role='main' id='{{ pageId }}')
       block(name='content')
 
