@@ -1,6 +1,6 @@
 extends(src='views/layout.sgr')
   block(name='content')
-    header
+    header.pad_20
       span.navTitle
         each(loop='menu of contentful.menu')
           a(href='#') {{ menu.fields.menuitem }} 
