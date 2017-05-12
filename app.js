@@ -1,9 +1,9 @@
-const SpikeUtils = require('spike-util')
+// const SpikeUtils = require('spike-util')
 const Contentful = require('spike-contentful')
 const htmlStandards = require('reshape-standard')
 const cssStandards = require('spike-css-standards')
 const jsStandards = require('spike-js-standards')
-const pageId = require('spike-page-id')
+// const pageId = require('spike-page-id')
 const locals = {}
 module.exports = {
   plugins: [
@@ -21,9 +21,9 @@ module.exports = {
           },
           template: {
             path: 'views/index.sgr',
-            output: (post) => { 
-              console.log(post)
-              return `index.html` 
+            output: (post) => {
+              // console.log(post)
+              return `index.html`
             }
           }
         }
