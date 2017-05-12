@@ -25,3 +25,7 @@ client.getEntry('4VHtP1ZQT6qQaQiayA0YCI')
   console.log(entry.fields.menuitem)
   console.log('menu success if its appear above')
 })
+
+test('menuTitle', t1 => {
+  t1.pass()
+})
