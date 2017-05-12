@@ -20,7 +20,8 @@
     "spike-js-standards": "^2.0.1",
     "spike-page-id": "^1.0.0",
     "spike-util": "^1.2.0",
-    "webpack": "^2.3.3"
+    "webpack": "^2.3.3",
+    "yarn": "^0.23.4"
   },
   "devDependencies": {
     "ava": "^0.19.1",
