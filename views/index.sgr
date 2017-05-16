@@ -3,4 +3,8 @@ extends(src='views/layout.sgr')
     header.pad_20
       span.navTitle
         each(loop='menu of contentful.menu')
-          a(href='#') {{ menu.fields.menuitem }} 
+          a(href='#') {{ menu.fields.menuitem }}
+
+    section
+    	// img.width_100(src='images/light_man.jpg')
+    	// img(src='{{ home.fields.homeImage1 }}; ) 
