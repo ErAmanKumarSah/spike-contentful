@@ -9,7 +9,7 @@ html
       meta(name='viewport' content='width=device-width, initial-scale=1')
 
     block(name='title')
-      title Title of Your Site
+      title Spike Contentful Testing
 
     block(name='stylesheets')
       link(rel='stylesheet' href='css/index.css')
@@ -19,6 +19,8 @@ html
       block(name='content')
 
     block(name='javascript')
+      // script(src='js/jquery.js')
       script(src='js/main.js' defer)
       script(src='https://unpkg.com/contentful@latest/dist/contentful.min.js')
-      script(src='bundle.js')
+      // script(src='assets/js/script.js')
+      // script(src='bundle.js') 
